@@ -31,8 +31,3 @@ plt.imshow(blended)
 
 # Karıştılmış resmi kaydetme.
 cv.imwrite("karistirilmis_resim.png",blended)
-
-
-
-cv.waitKey(0)
-cv.destroyAllWindows()
