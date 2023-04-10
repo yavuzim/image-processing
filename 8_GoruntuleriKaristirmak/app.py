@@ -4,7 +4,8 @@ import matplotlib.pyplot as plt
 img1 = cv.imread("img1.jpg")
 img2 = cv.imread("img2.jpg")
 
-# BGR formatını RGB yapma.
+# RGB formatında bir resim yolladığımızda openCV onu BGR formatında çalıştırır bu yüzden renkler karışır.
+    # BGR formatını RGB yapma.
 img1 = cv.cvtColor(img1,cv.COLOR_BGR2RGB)
 img2 = cv.cvtColor(img2,cv.COLOR_BGR2RGB)
 
