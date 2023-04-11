@@ -14,5 +14,5 @@ sobelY = cv.Sobel(img, ddepth = cv.CV_16S, dx = 0, dy = 1, ksize = 5)
 plt.figure(), plt.imshow(sobelY, cmap = "gray"), plt.axis("off"), plt.title("Y Gradyan")
 
 # laplacian gradyan.(x-y)
-lap = cv.Laplacian(img, ddepth = cv.CV_16S, ksize = 5)
+lap = cv.Laplacian(img, ddepth = cv.CV_16S)
 plt.figure(), plt.imshow(lap, cmap = "gray"), plt.axis("off"), plt.title("Laplacian")
